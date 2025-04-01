@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #de830c;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(16, 15, 15);
+    font-weight: bold;
+}
+
+/* Specific Page Styles */
+.profile-page {
+    background-color: #e1c7b7;  /* Blue tone */
+}
+
+.education-page {
+    background-color: #df9a7d;  /* Light peach */
+}
+
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;       /* Adjust size */
+    height: 150px;
+    border-radius: 50%; /* Circular shape */
+    border: 3px solid #ebc0c0;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(52, 50, 50, 0.2);
+}
+
+.projects-page {
+    background-color: #f5d4a3;  /* Light green */
+}
+
+.internships-page {
+    background-color: #e7c194;  /* Light purple */
+}
+
+.skills-page {
+    background-color: #e9b994;  /* Light mint */
+}
+
+.contact-page {
+    background-color: #dea771;  /* Light pink */
+}
+
+/* Content Section */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(66, 42, 42, 0);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(57, 32, 32, 0.1);
+}
+
+h2 {
+    color: #0d0d0e;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #eba0a0;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #131414;
+    color: rgb(218, 188, 121);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eadb8f;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
